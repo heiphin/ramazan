@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>№1,2 задание</title>
+</head>
+<body>
+    <script>
+        const mess = "Саламалейкум, Мир!";
+        alert(mess);
+        
+        var zarplata = prompt("Введите вашу заработную плату:");
+        var zarplataNumber = parseFloat(zarplata);
+
+        var bonus = zarplataNumber * 0.15 ;
+        var zbplata = zarplataNumber + bonus ;
+        alert(" С учётом премии 15%  ваша зарплата составляет: " + zbplata) ;
+
+        var percent = zbplata * 0.10 ;
+        var nalog = zbplata - percent ;
+        alert(" С учётом налогов в виде  10%  ваша зарплата составляет: " + nalog);
+
+        var magaz = nalog - 190 ;
+        alert(" С учётом траты на  магазин  ваша зарплата составляет: " + magaz);
+
+        var polovina = magaz / 2
+        alert("Половина досталась жене:), у вас осталось - " + polovina);
+    </script>
+</body>
+</html>
